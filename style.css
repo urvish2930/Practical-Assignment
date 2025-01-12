@@ -1,0 +1,36 @@
+body { /* the body layout is set to center with light grey bg with arial font */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container, .quiz-container, .results-container { /* here the side of container with color and bg is designed*/
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;/* color is given to heading*/
+}
+button, .restart-btn {    /*here button size , color, border and font is set */
+    padding: 10px 20px;
+    background-color: #0b0c0c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover, .restart-btn:hover {/* here the hover functionality on btn is set*/
+    background-color: #0056b3;
+}
+label {
+    display: block;/*here label size and font is defined */
+    margin: 10px 0;
+    font-size: 16px;
+}
