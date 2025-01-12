@@ -1,0 +1,17 @@
+{
+  "name": "PHP Development",
+  "image": "mcr.microsoft.com/devcontainers/php:latest",
+  "postCreateCommand": "composer install",  // Automatically installs dependencies if using Composer
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "felixfbecker.php-debug",
+        "php.vscode-php-intellisense"
+      ]
+    }
+  },
+  "forwardPorts": [80],  // Forward port 80 for HTTP access
+  "settings": {
+    "php.validate.executablePath": "/usr/bin/php"
+  }
+}
